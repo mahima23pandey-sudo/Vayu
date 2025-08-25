@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore India</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/explore.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="nav-wrap">
+        <div class="brand">
+          <div class="logo"><span>V</span></div>
+          <a href="#">VAYU</a>
+        </div>
+        <nav class="menu">
+          <a href="index.html">Home</a>
+          <a href="explore.html">Explore</a>
+          <a href="#community">Community</a>
+          <button class="btn" onclick="goAuth()">Login / Signup</button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Dropdown Section -->
+    <div class="header">
+      <div class="header-content">
+        <div class="dropdown-container">
+          <div class="dropdown">
+            <span>STATE</span>
+            <select id="stateSelect">
+              <option value="">Choose State</option>
+            </select>
+          </div>
+          <div class="dropdown">
+            <span>DISTRICT</span>
+            <select id="districtSelect">
+              <option value="">Choose District</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div id="heroSection" class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title" id="heroTitle">Discover Incredible India</h1>
+        <p class="hero-subtitle" id="heroSubtitle">
+          Explore the beauty, culture, and heritage of India's magnificent
+          destinations
+        </p>
+        <p class="state-tagline" id="stateTagline"></p>
+        <div class="state-places" id="statePlaces"></div>
+      </div>
+    </div>
+
+    <!-- Dynamic Hero Background -->
+    <div id="districtBg" class="district-bg" style="display: none">
+      <span id="districtText"></span>
+    </div>
+
+    <!-- Places Grid -->
+    <div class="container">
+      <div id="placesContainer" class="places-grid"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <div class="brand">
+            <div class="logo footer-logo"><span>V</span></div>
+          </div>
+          <p>Discover and connect with India's heritage and tourism.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Login/Signup</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>Email: support@vayu.in</p>
+          <p>Phone: +91-9876543210</p>
+          <p>City: Bhimtal, India</p>
+        </div>
+
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 VAYU. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="scripts/explore.js"></script>
+  </body>
+</html>
+*
