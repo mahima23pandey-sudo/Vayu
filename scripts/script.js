@@ -1,6 +1,6 @@
 
 function goAuth(){ 
-  alert('Login/Signup page placeholder'); 
+  window.location.href = "login.html";
 }
 function scrollToCards(){ 
   document.getElementById('explore').scrollIntoView({behavior:'smooth'}); 

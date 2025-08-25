@@ -23,7 +23,7 @@
             <a href="explore.html">Explore</a>
             <a href="planner.html">Plan A Trip</a>
             <a href="#community">Community</a>
-            <button class="btn" onclick="goAuth()">Login / Signup</button>
+            <button id="authBtn" class="btn" onclick="goAuth()">Login / Signup</button>
         </nav>
         </div>
     </header>
@@ -81,7 +81,7 @@
 
     <!-- CTA Join -->
     <section class="cta-section">
-        <button class="btn" onclick="goAuth()">Join Us Now</button>
+        <button id="" class="btn" onclick="goAuth()">Join Us Now</button>
     </section>
 
     <div class="spacer"></div>
@@ -123,5 +123,50 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+      // 🔹 Firebase Config
+      const firebaseConfig = {
+        apiKey: "AIzaSyA8HFSyj9jIYCvnXGFuzIDEuPiokuXBNUs",
+        authDomain: "vayu-1-cfaa4.firebaseapp.com",
+        projectId: "vayu-1-cfaa4",
+        storageBucket: "vayu-1-cfaa4.firebasestorage.app",
+        messagingSenderId: "1092691403771",
+        appId: "1:1092691403771:web:46e636655a39951cda615e",
+        measurementId: "G-H7Q41PSDGL"
+      };
+
+      // 🔹 Init Firebase
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+
+      const authBtn = document.getElementById("authBtn");
+
+      // 🔹 Check login state
+      onAuthStateChanged(auth, (user) => {
+      if (user) {
+    // Get a friendly name: displayName > email username
+    const friendlyName = user.displayName || user.email.split("@")[0];
+    authBtn.innerText = `Hello, ${friendlyName}`;
+    
+    authBtn.onclick = () => {
+      if (confirm("Do you want to logout?")) {
+        signOut(auth).then(() => {
+          window.location.reload();
+        });
+      }
+    };
+  } else {
+    authBtn.innerText = "Login / Signup";
+    authBtn.onclick = () => {
+      window.location.href = "login.html"; // redirect to login page
+    };
+  }
+});
+   
+
+    </script>
 </body>
 </html>
