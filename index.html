@@ -22,6 +22,104 @@
         </nav>
         </div>
     </header>
-    
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="bg">
+            <img src="images/main-bg.avif" alt="Nainital Lake Hero" />
+        </div>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Discover India’s Hotels, Heritage & Culture</h1>
+            <p>Live weather, maps, 360° street views, and curated cultural knowledge — all in one place.</p>
+            <div class="searchbar">
+                <input type="text" placeholder="Search heritage sites, hotels, or festivals" />
+                <button class="btn" onclick="scrollToCards()">Search</button>
+            </div>
+        </div>
+    </section>
+    <!-- Category Cards -->
+    <main class="section" id="explore">
+        <h1 class="text">What you want to do ?</h1>
+        <div class="cards">
+        <article class="card" onclick="goExplore()">
+            <div class="thumb">
+                <img src="images/main-exploreindia.avif" alt="Explore India" />
+            </div>
+            <div class="body">
+                <h3>Explore India</h3>
+                <p>Pick a state → see districts → discover places with quick wiki links.</p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="thumb">
+                <img src="images/main-hotel.avif" alt="Hotels" />
+            </div>
+            <div class="body">
+                <h3>Hotels</h3>
+                <p>Find trusted stays in India with booking links at minimal budgets.</p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="thumb">
+                <img src="images/main-cultureand heritage.webp" alt="Culture & Heritage" />
+            </div>
+            <div class="body">
+                <h3>Culture & Heritage</h3>
+                <p>Stories, festivals, food, and handicrafts that define the region.</p>
+            </div>
+        </article>
+        </div>
+    </main>
+
+    <!-- Why Choose Vayu -->
+    <section class="why-choose">
+       <h2>Why Choose VAYU?</h2>
+       <p>VAYU combines tourism, culture, and live information in one platform. Explore destinations, book stays, and immerse yourself in local heritage.</p>
+    </section>
+
+    <!-- CTA Join -->
+    <section class="cta-section">
+        <button class="btn" onclick="goAuth()">Join Us Now</button>
+    </section>
+
+    <div class="spacer"></div>
+    <footer class="footer">
+    <div class="footer-container">
+            <div class="footer-brand">
+            <div class="brand">
+            <div class="logo footer-logo"><span>V</span></div>
+        </div>
+        <p>Discover and connect with India’s heritage and tourism.</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Login/Signup</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>Email: support@vayu.in</p>
+            <p>Phone: +91-9876543210</p>
+            <p>City: Bhimtal, India</p>
+        </div>
+
+        <div class="footer-social">
+            <h4>Follow Us</h4>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 VAYU. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
