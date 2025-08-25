@@ -3,16 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Explore India</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="styles/explore.css" />
+    <title>Plan A Trip</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/planner.css" />
   </head>
-
   <body>
-    <!-- Navbar -->
+    <!--header -->
     <header class="navbar">
       <div class="nav-wrap">
         <div class="brand">
@@ -40,46 +36,45 @@
             </select>
           </div>
           <div class="dropdown">
-            <span>DISTRICT</span>
-            <select id="districtSelect">
-              <option value="">Choose District</option>
+            <span>TRAVEL DATE</span>
+            <input type="date" id="travelDate" />
+          </div>
+          <div class="dropdown">
+            <span>MEMBERS</span>
+            <select id="membersSelect">
+              <option value="">Select Members</option>
+              <option value="solo">Solo</option>
+              <option value="family">Family</option>
+              <option value="friends">With Friends</option>
             </select>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Hero Section -->
-    <div id="heroSection" class="hero-section">
-      <div class="hero-content">
-        <h1 class="hero-title" id="heroTitle">Discover Incredible India</h1>
-        <p class="hero-subtitle" id="heroSubtitle">
-          Explore the beauty, culture, and heritage of India's magnificent
-          destinations
-        </p>
-        <p class="state-tagline" id="stateTagline"></p>
-        <div class="state-places" id="statePlaces"></div>
+    <!-- Top Travellers Section -->
+    <section class="section">
+      <h2 class="section-title">Top Travellers from our Website</h2>
+      <div id="topTravellers" class="places-grid">
+        <!-- 3 Cards dynamically from JS -->
       </div>
-    </div>
+    </section>
 
-    <!-- Dynamic Hero Background -->
-    <div id="districtBg" class="district-bg" style="display: none">
-      <span id="districtText"></span>
-    </div>
-
-    <!-- Places Grid -->
-    <div class="container">
-      <div id="placesContainer" class="places-grid"></div>
-    </div>
-
-    <!-- Footer -->
+    <!-- Travel Buddy Section -->
+    <section class="section">
+      <h2 class="section-title">Find Travel Buddy</h2>
+      <div id="peopleCards" class="places-grid">
+        <!-- 8 Cards dynamically from JS -->
+      </div>
+    </section>
+    <div class="spacer"></div>
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-brand">
           <div class="brand">
             <div class="logo footer-logo"><span>V</span></div>
           </div>
-          <p>Discover and connect with India's heritage and tourism.</p>
+          <p>Discover and connect with India’s heritage and tourism.</p>
         </div>
 
         <div class="footer-links">
@@ -110,6 +105,7 @@
         <p>&copy; 2025 VAYU. All rights reserved.</p>
       </div>
     </footer>
-    <script src="scripts/explore.js"></script>
+
+    <script src="scripts/planner.js"></script>
   </body>
 </html>
