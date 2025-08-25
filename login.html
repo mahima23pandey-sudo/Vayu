@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vayu - Login</title>
+  <link rel="stylesheet" href="styles/login.css">
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>Account Login</h2>
+    <form id="login-form">
+      <input type="text" id="email" placeholder="Username or Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <div>
+        <label><input type="checkbox" id="rememberMe"> Remember Me</label>
+        <a id="forgotPassword">Forgot password?</a>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+
+    <p>Or login with</p>
+    <div class="social-login">
+      <button id="googleLogin">Google</button>
+    </div>
+    <p>Don't have an account? <a id="signup-link">Sign Up</a></p>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    // Import Firebase SDKs
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,
+             GoogleAuthProvider, signInWithPopup, sendPasswordResetEmail } 
+             from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+    import { getFirestore, setDoc, doc } 
+             from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+    // 🔹 Your Firebase Config (replace with your values from Firebase Console)
+    const firebaseConfig = {
+        apiKey: "AIzaSyA8HFSyj9jIYCvnXGFuzIDEuPiokuXBNUs",
+  authDomain: "vayu-1-cfaa4.firebaseapp.com",
+  projectId: "vayu-1-cfaa4",
+  storageBucket: "vayu-1-cfaa4.firebasestorage.app",
+  messagingSenderId: "1092691403771",
+  appId: "1:1092691403771:web:46e636655a39951cda615e",
+  measurementId: "G-H7Q41PSDGL"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+    const provider = new GoogleAuthProvider();
+
+    // Login with Email/Password
+    document.getElementById("login-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+      try {
+        await signInWithEmailAndPassword(auth, email, password);
+        alert("Login Successful ✅");
+      } catch (error) {
+        alert(error.message);
+      }
+    });
+
+    // Google Login
+    document.getElementById("googleLogin").addEventListener("click", async () => {
+      try {
+        const result = await signInWithPopup(auth, provider);
+        const user = result.user;
+        await setDoc(doc(db, "users", user.uid), {
+          name: user.displayName,
+          email: user.email,
+          createdAt: new Date()
+        });
+        alert("Google Login Successful ✅");
+      } catch (error) {
+        alert(error.message);
+      }
+    });
+
+    // Forgot Password
+    document.getElementById("forgotPassword").addEventListener("click", async () => {
+      const email = prompt("Enter your email for password reset:");
+      if (email) {
+        await sendPasswordResetEmail(auth, email);
+        alert("Password reset email sent ✅");
+      }
+    });
+
+    // Sign Up
+    document.getElementById("signup-link").addEventListener("click", async () => {
+      const email = prompt("Enter Email:");
+      const password = prompt("Enter Password:");
+      try {
+        const userCred = await createUserWithEmailAndPassword(auth, email, password);
+        await setDoc(doc(db, "users", userCred.user.uid), {
+          email: email,
+          createdAt: new Date()
+        });
+        alert("Sign Up Successful ✅");
+      } catch (error) {
+        alert(error.message);
+      }
+    });
+  </script>
+</body>
+</html>

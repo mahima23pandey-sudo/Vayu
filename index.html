@@ -36,10 +36,6 @@
         <div class="content">
             <h1>Discover India’s Hotels, Heritage & Culture</h1>
             <p>Live weather, maps, 360° street views, and curated cultural knowledge — all in one place.</p>
-            <div class="searchbar">
-                <input type="text" placeholder="Search heritage sites, hotels, or festivals" />
-                <button class="btn" onclick="scrollToCards()">Search</button>
-            </div>
         </div>
     </section>
     <!-- Category Cards -->
@@ -55,15 +51,16 @@
                 <p>Pick a state → see districts → discover places with quick wiki links.</p>
             </div>
         </article>
-        <article class="card">
+        <article class="card" onclick="gohotel()">
             <div class="thumb">
                 <img src="images/main-hotel.avif" alt="Hotels" />
             </div>
             <div class="body">
-                <h3>Hotels</h3>
+                <h3>Hotels,Resorts & stays etc...</h3>
                 <p>Find trusted stays in India with booking links at minimal budgets.</p>
             </div>
         </article>
+        </a>
         <article class="card">
             <div class="thumb">
                 <img src="images/main-cultureand heritage.webp" alt="Culture & Heritage" />
