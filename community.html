@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community - VAYU</title>
+    <link rel="stylesheet" href="styles/community.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <header class="navbar">
+      <div class="nav-wrap">
+        <div class="brand">
+          <div class="logo"><span>V</span></div>
+          <a href="index.html">VAYU</a>
+        </div>
+        <nav class="menu">
+          <a href="index.html">Home</a>
+          <a href="explore.html">Explore</a>
+          <a href="planner.html">Plan A Trip</a>
+          <a href="community.html" class="active">Community</a>
+          <button  id="authBtn" class="btn">Login / Signup</button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Community Reviews</h1>
+        <p>
+          Share your experiences and explore what others say about destinations.
+        </p>
+      </div>
+    </section>
+    
+    <section class="add-review">
+      <h2>Write a Review</h2>
+      <form id="reviewForm">
+        <input type="text" id="username" placeholder="Your Name" required />
+        <input type="text" id="location" placeholder="Location" required />
+        <textarea
+          id="comment"
+          placeholder="Write your review..."
+          required
+        ></textarea>
+        <div class="rating">
+          <label>Rating:</label>
+          <select id="rating" required>
+            <option value="">Choose...</option>
+            <option value="1">⭐ (1)</option>
+            <option value="2">⭐⭐ (2)</option>
+            <option value="3">⭐⭐⭐ (3)</option>
+            <option value="4">⭐⭐⭐⭐ (4)</option>
+            <option value="5">⭐⭐⭐⭐⭐ (5)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+
+    <!-- Reviews List -->
+    <section class="reviews-section">
+      <h2>Recent Reviews</h2>
+      <div class="reviews" id="reviewsContainer"></div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 VAYU. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/community.js"></script>
+  </body>
+</html>
