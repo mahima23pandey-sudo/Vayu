@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>English → Garhwali / Pahari Translator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles/lang.css" />
+</head>
+<body>
+  <div class="card">
+    <h2>English → <span id="langLabel">Garhwali</span> Translator</h2>
+
+    <div class="row">
+      <label for="languageSelect">Language</label>
+      <select id="languageSelect">
+        <option value="garhwali" selected>Garhwali</option>
+        <option value="pahari">Kumaoni</option>
+      </select>
+    </div>
+
+    <input
+      type="text"
+      id="englishInput"
+      placeholder="Type an English phrase (e.g., How are you?)"
+      autocomplete="off"
+    />
+
+    <div class="row">
+      <button id="btnTranslate" disabled>Translate</button>
+      <button id="btnSpeak" disabled>🔊 Speak</button>
+    </div>
+
+    <h3>Output:</h3>
+    <p id="outputText" class="output"></p>
+
+    <p id="suggestions" class="muted"></p>
+    <p id="status" class="muted">Loading translations…</p>
+  </div>
+
+  <script src="scripts/language.js"></script>
+</body>
+</html>

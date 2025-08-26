@@ -1,0 +1,1311 @@
+[
+  {
+    "en": "How are you?",
+    "kumaoni": "Timi kas chha?"
+  },
+  {
+    "en": "What is your name?",
+    "kumaoni": "Tyo naun ki chha?"
+  },
+  {
+    "en": "Where is the bus stand?",
+    "kumaoni": "Bus stand khan cha?"
+  },
+  {
+    "en": "Which way goes to the market?",
+    "kumaoni": "Bajar ku bato kun cha?"
+  },
+  {
+    "en": "Can I get food here?",
+    "kumaoni": "Ith khan mil cha?"
+  },
+  {
+    "en": "Is there any hotel nearby?",
+    "kumaoni": "Yai najik hotel cha?"
+  },
+  {
+    "en": "Where is the washroom?",
+    "kumaoni": "Shauchalay khan cha?"
+  },
+  {
+    "en": "How long will it take to reach?",
+    "kumaoni": "Kattha samay laglu?"
+  },
+  {
+    "en": "Can I walk there?",
+    "kumaoni": "Main pai-dal jaula?"
+  },
+  {
+    "en": "Is this the right way?",
+    "kumaoni": "Yo sahi bato cha?"
+  },
+  
+  {
+    "en": "Hello",
+    "kumaoni": "Namaskar"
+  },
+  {
+    "en": "How are you?",
+    "kumaoni": "Timi kas chha?"
+  },
+  {
+    "en": "What is your name?",
+    "kumaoni": "Tyo naun ki chha?"
+  },
+  {
+    "en": "My name is Ramesh",
+    "kumaoni": "Mero naun Ramesh chha."
+  },
+  {
+    "en": "Where are you from?",
+    "kumaoni": "Timi kata syu?"
+  },
+  {
+    "en": "I am from Nainital",
+    "kumaoni": "Main Nainital syu chhu."
+  },
+  {
+    "en": "What do you do?",
+    "kumaoni": "Timi ki kaam kar chho?"
+  },
+  {
+    "en": "I am a student",
+    "kumaoni": "Main vidyarthi chhu."
+  },
+  {
+    "en": "How old are you?",
+    "kumaoni": "Timi kati baras ka chho?"
+  },
+  {
+    "en": "I am twenty years old",
+    "kumaoni": "Main bis baras ko chhu."
+  },
+  {
+    "en": "Where is the bus stand?",
+    "kumaoni": "Bus stand khan cha?"
+  },
+  {
+    "en": "Where is the market?",
+    "kumaoni": "Bajar khan cha?"
+  },
+  {
+    "en": "Which way goes to the temple?",
+    "kumaoni": "Mandir ku bato kun cha?"
+  },
+  {
+    "en": "Can I get food here?",
+    "kumaoni": "Ith khan mil cha?"
+  },
+  {
+    "en": "Is there any hotel nearby?",
+    "kumaoni": "Yai najik hotel cha?"
+  },
+  {
+    "en": "Where is the washroom?",
+    "kumaoni": "Shauchalay khan cha?"
+  },
+  {
+    "en": "How long will it take?",
+    "kumaoni": "Kattha samay laglu?"
+  },
+  {
+    "en": "Can I walk there?",
+    "kumaoni": "Main paidal jaula?"
+  },
+  {
+    "en": "Is this the right way?",
+    "kumaoni": "Yo sahi bato cha?"
+  },
+  {
+    "en": "Where is the railway station?",
+    "kumaoni": "Railway station khan cha?"
+  },
+  {
+    "en": "I need water",
+    "kumaoni": "Main paani chhyo."
+  },
+  {
+    "en": "Do you have tea?",
+    "kumaoni": "Timi cha chha?"
+  },
+  {
+    "en": "Please give me food",
+    "kumaoni": "Kripya main khan diyo."
+  },
+  {
+    "en": "How much is this?",
+    "kumaoni": "Yo kattha rupiya ko cha?"
+  },
+  {
+    "en": "This is expensive",
+    "kumaoni": "Yo mahango cha."
+  },
+  {
+    "en": "This is cheap",
+    "kumaoni": "Yo sasto cha."
+  },
+  {
+    "en": "Do you have change?",
+    "kumaoni": "Chhutta chha?"
+  },
+  {
+    "en": "Call the doctor",
+    "kumaoni": "Doctor lai bulao."
+  },
+  {
+    "en": "I am sick",
+    "kumaoni": "Main bimaar chhu."
+  },
+  {
+    "en": "I need medicine",
+    "kumaoni": "Main dawa chhyo."
+  },
+  {
+    "en": "Help me!",
+    "kumaoni": "Meri madat karo!"
+  },
+  {
+    "en": "Where is the hospital?",
+    "kumaoni": "Hospital khan cha?"
+  },
+  {
+    "en": "Where is the police station?",
+    "kumaoni": "Thana khan cha?"
+  },
+  {
+    "en": "I lost my bag",
+    "kumaoni": "Mero jhola gum gay cha."
+  },
+  {
+    "en": "What time is it?",
+    "kumaoni": "Kati baje chha?"
+  },
+  {
+    "en": "It is ten o'clock",
+    "kumaoni": "Das baje chha."
+  },
+  {
+    "en": "Good morning",
+    "kumaoni": "Suwagat subah"
+  },
+  {
+    "en": "Good night",
+    "kumaoni": "Shubh raatri"
+  },
+  {
+    "en": "See you tomorrow",
+    "kumaoni": "Bholi bhent karula."
+  },
+  {
+    "en": "Where is your home?",
+    "kumaoni": "Tyo ghar khan cha?"
+  },
+  {
+    "en": "My home is far",
+    "kumaoni": "Mero ghar durr cha."
+  },
+  {
+    "en": "I am hungry",
+    "kumaoni": "Main bhook lagy cha."
+  },
+  {
+    "en": "I am thirsty",
+    "kumaoni": "Main pyas lagy cha."
+  },
+  {
+    "en": "Do you speak Hindi?",
+    "kumaoni": "Timi Hindi bol cha?"
+  },
+  {
+    "en": "I don’t understand",
+    "kumaoni": "Main bujh na payo."
+  },
+  {
+    "en": "Please say again",
+    "kumaoni": "Feri bhan diyo."
+  },
+  {
+    "en": "Slowly please",
+    "kumaoni": "Aram-sy bhan diyo."
+  },
+  {
+    "en": "Thank you",
+    "kumaoni": "Dhanyabaad"
+  },
+  {
+    "en": "You are welcome",
+    "kumaoni": "Swagat chha"
+  },
+  
+  {
+    "en": "Hello",
+    "kumaoni": "Namaskar"
+  },
+  {
+    "en": "How are you?",
+    "kumaoni": "Timi kas chha?"
+  },
+  {
+    "en": "What is your name?",
+    "kumaoni": "Tyo naun ki chha?"
+  },
+  {
+    "en": "My name is Ramesh",
+    "kumaoni": "Mero naun Ramesh chha."
+  },
+  {
+    "en": "Where are you from?",
+    "kumaoni": "Timi kata syu?"
+  },
+  {
+    "en": "I am from Nainital",
+    "kumaoni": "Main Nainital syu chhu."
+  },
+  {
+    "en": "What do you do?",
+    "kumaoni": "Timi ki kaam kar chho?"
+  },
+  {
+    "en": "I am a student",
+    "kumaoni": "Main vidyarthi chhu."
+  },
+  {
+    "en": "How old are you?",
+    "kumaoni": "Timi kati baras ka chho?"
+  },
+  {
+    "en": "I am twenty years old",
+    "kumaoni": "Main bis baras ko chhu."
+  },
+  {
+    "en": "Where is the bus stand?",
+    "kumaoni": "Bus stand khan cha?"
+  },
+  {
+    "en": "Where is the market?",
+    "kumaoni": "Bajar khan cha?"
+  },
+  {
+    "en": "Which way goes to the temple?",
+    "kumaoni": "Mandir ku bato kun cha?"
+  },
+  {
+    "en": "Can I get food here?",
+    "kumaoni": "Ith khan mil cha?"
+  },
+  {
+    "en": "Is there any hotel nearby?",
+    "kumaoni": "Yai najik hotel cha?"
+  },
+  {
+    "en": "Where is the washroom?",
+    "kumaoni": "Shauchalay khan cha?"
+  },
+  {
+    "en": "How long will it take?",
+    "kumaoni": "Kattha samay laglu?"
+  },
+  {
+    "en": "Can I walk there?",
+    "kumaoni": "Main paidal jaula?"
+  },
+  {
+    "en": "Is this the right way?",
+    "kumaoni": "Yo sahi bato cha?"
+  },
+  {
+    "en": "Where is the railway station?",
+    "kumaoni": "Railway station khan cha?"
+  },
+  {
+    "en": "I need water",
+    "kumaoni": "Main paani chhyo."
+  },
+  {
+    "en": "Do you have tea?",
+    "kumaoni": "Timi cha chha?"
+  },
+  {
+    "en": "Please give me food",
+    "kumaoni": "Kripya main khan diyo."
+  },
+  {
+    "en": "How much is this?",
+    "kumaoni": "Yo kattha rupiya ko cha?"
+  },
+  {
+    "en": "This is expensive",
+    "kumaoni": "Yo mahango cha."
+  },
+  {
+    "en": "This is cheap",
+    "kumaoni": "Yo sasto cha."
+  },
+  {
+    "en": "Do you have change?",
+    "kumaoni": "Chhutta chha?"
+  },
+  {
+    "en": "Call the doctor",
+    "kumaoni": "Doctor lai bulao."
+  },
+  {
+    "en": "I am sick",
+    "kumaoni": "Main bimaar chhu."
+  },
+  {
+    "en": "I need medicine",
+    "kumaoni": "Main dawa chhyo."
+  },
+  {
+    "en": "Help me!",
+    "kumaoni": "Meri madat karo!"
+  },
+  {
+    "en": "Where is the hospital?",
+    "kumaoni": "Hospital khan cha?"
+  },
+  {
+    "en": "Where is the police station?",
+    "kumaoni": "Thana khan cha?"
+  },
+  {
+    "en": "I lost my bag",
+    "kumaoni": "Mero jhola gum gay cha."
+  },
+  {
+    "en": "What time is it?",
+    "kumaoni": "Kati baje chha?"
+  },
+  {
+    "en": "It is ten o'clock",
+    "kumaoni": "Das baje chha."
+  },
+  {
+    "en": "Good morning",
+    "kumaoni": "Suwagat subah"
+  },
+  {
+    "en": "Good night",
+    "kumaoni": "Shubh raatri"
+  },
+  {
+    "en": "See you tomorrow",
+    "kumaoni": "Bholi bhent karula."
+  },
+  {
+    "en": "Where is your home?",
+    "kumaoni": "Tyo ghar khan cha?"
+  },
+  {
+    "en": "My home is far",
+    "kumaoni": "Mero ghar durr cha."
+  },
+  {
+    "en": "I am hungry",
+    "kumaoni": "Main bhook lagy cha."
+  },
+  {
+    "en": "I am thirsty",
+    "kumaoni": "Main pyas lagy cha."
+  },
+  {
+    "en": "Do you speak Hindi?",
+    "kumaoni": "Timi Hindi bol cha?"
+  },
+  {
+    "en": "I don’t understand",
+    "kumaoni": "Main bujh na payo."
+  },
+  {
+    "en": "Please say again",
+    "kumaoni": "Feri bhan diyo."
+  },
+  {
+    "en": "Slowly please",
+    "kumaoni": "Aram-sy bhan diyo."
+  },
+  {
+    "en": "Thank you",
+    "kumaoni": "Dhanyabaad"
+  },
+  {
+    "en": "You are welcome",
+    "kumaoni": "Swagat chha"
+  },
+  {
+  "en": "Hi",
+  "kumaoni": "Namaskar"
+},
+{
+  "en": "Hello",
+  "kumaoni": "Jai Ram ji ki"
+},
+{
+  "en": "Good morning",
+  "kumaoni": "Subah bhalo"
+},
+{
+  "en": "Good night",
+  "kumaoni": "Raat bhalo"
+},
+{
+  "en": "Yes",
+  "kumaoni": "Haan"
+},
+{
+  "en": "No",
+  "kumaoni": "Naai"
+},
+{
+  "en": "Please",
+  "kumaoni": "Kripya"
+},
+{
+  "en": "Thank you",
+  "kumaoni": "Dhanyavaad"
+},
+{
+  "en": "You are welcome",
+  "kumaoni": "Swagat chha"
+},
+{
+  "en": "Sorry",
+  "kumaoni": "Maaf karno"
+},
+{
+  "en": "Excuse me",
+  "kumaoni": "Suniye"
+},
+{
+  "en": "I",
+  "kumaoni": "Main"
+},
+{
+  "en": "You",
+  "kumaoni": "Tu"
+},
+{
+  "en": "He",
+  "kumaoni": "U"
+},
+{
+  "en": "She",
+  "kumaoni": "Ti"
+},
+{
+  "en": "We",
+  "kumaoni": "Ham"
+},
+{
+  "en": "They",
+  "kumaoni": "Un"
+},
+{
+  "en": "This",
+  "kumaoni": "Yo"
+},
+{
+  "en": "That",
+  "kumaoni": "Wo"
+},
+{
+  "en": "Here",
+  "kumaoni": "Ith"
+},
+{
+  "en": "There",
+  "kumaoni": "Teth"
+},
+{
+  "en": "What is your name?",
+  "kumaoni": "Tyo nau ky chha?"
+},
+{
+  "en": "My name is Ramesh",
+  "kumaoni": "Mero nau Ramesh chha."
+},
+{
+  "en": "How are you?",
+  "kumaoni": "Tu kasu chhu?"
+},
+{
+  "en": "I am fine",
+  "kumaoni": "Main bhalo chhu"
+},
+{
+  "en": "Come here",
+  "kumaoni": "Ith aao"
+},
+{
+  "en": "Go there",
+  "kumaoni": "Teth jao"
+},
+{
+  "en": "Sit down",
+  "kumaoni": "Baiso"
+},
+{
+  "en": "Stand up",
+  "kumaoni": "Utho"
+},
+{
+  "en": "Eat food",
+  "kumaoni": "Bhojan kha"
+},
+{
+  "en": "Drink water",
+  "kumaoni": "Pani pi"
+},
+{
+  "en": "Where are you going?",
+  "kumaoni": "Tu khan jauno chhu?"
+},
+{
+  "en": "I am going home",
+  "kumaoni": "Main ghar jauno chhu"
+},
+{
+  "en": "Come tomorrow",
+  "kumaoni": "Bholi aai ja"
+},
+{
+  "en": "See you soon",
+  "kumaoni": "Jaldi bhent hula"
+},
+{
+  "en": "I don’t know",
+  "kumaoni": "Maini naai jano"
+},
+{
+  "en": "Do you understand?",
+  "kumaoni": "Tu samjho chhu?"
+},
+{
+  "en": "I understand",
+  "kumaoni": "Main samjho chhu"
+},
+{
+  "en": "I don’t understand",
+  "kumaoni": "Maini naai samjho"
+},
+{
+  "en": "Wait",
+  "kumaoni": "Ruko"
+},
+{
+  "en": "Come fast",
+  "kumaoni": "Jaldi aao"
+},
+{
+  "en": "Slowly",
+  "kumaoni": "Dhire dhire"
+},
+{
+  "en": "Open the door",
+  "kumaoni": "Darwajo khol"
+},
+{
+  "en": "Close the window",
+  "kumaoni": "Khidki band kar"
+},
+{
+  "en": "It is good",
+  "kumaoni": "Yo bhalo chha"
+},
+{
+  "en": "It is bad",
+  "kumaoni": "Yo kharo chha"
+},
+{
+  "en": "Beautiful",
+  "kumaoni": "Sundar"
+},
+{
+  "en": "Small",
+  "kumaoni": "Chhoto"
+},
+{
+  "en": "Big",
+  "kumaoni": "Tho"
+},
+{
+  "en": "Hot",
+  "kumaoni": "Garam"
+},
+{
+  "en": "Cold",
+  "kumaoni": "Thando"
+},
+{
+  "en": "You are welcome",
+  "kumaoni": "Swagat chha"
+},
+{
+  "en": "Hi",
+  "kumaoni": "Namaskar"
+},
+{
+  "en": "Yes",
+  "kumaoni": "Haan"
+},
+{
+  "en": "No",
+  "kumaoni": "Na"
+},
+{
+  "en": "Please",
+  "kumaoni": "Kripya"
+},
+{
+  "en": "Thank you",
+  "kumaoni": "Dhanyabad"
+},
+{
+  "en": "Sorry",
+  "kumaoni": "Maaf karna"
+},
+{
+  "en": "Good morning",
+  "kumaoni": "Subah ram ram"
+},
+{
+  "en": "Good night",
+  "kumaoni": "Sanjh ram ram"
+},
+{
+  "en": "How are you?",
+  "kumaoni": "Timi kas chha?"
+},
+{
+  "en": "I am fine",
+  "kumaoni": "Main theek chhu"
+},
+{
+  "en": "What is your name?",
+  "kumaoni": "Tyo nau ki chha?"
+},
+{
+  "en": "My name is Ramesh",
+  "kumaoni": "Mero nau Ramesh chha"
+},
+{
+  "en": "Where are you from?",
+  "kumaoni": "Tu kahaan ka chha?"
+},
+{
+  "en": "I am from Nainital",
+  "kumaoni": "Main Nainital ka chhu"
+},
+{
+  "en": "Where is the bus stand?",
+  "kumaoni": "Bus stand khan cha?"
+},
+{
+  "en": "Where is the market?",
+  "kumaoni": "Bajar khan cha?"
+},
+{
+  "en": "How much is this?",
+  "kumaoni": "Yo kitna chha?"
+},
+{
+  "en": "I don’t understand",
+  "kumaoni": "Main buj na chhu"
+},
+{
+  "en": "I understand",
+  "kumaoni": "Main buj chhu"
+},
+{
+  "en": "Come here",
+  "kumaoni": "Yahaan aija"
+},
+{
+  "en": "Go there",
+  "kumaoni": "Wahaan jaa"
+},
+{
+  "en": "Sit down",
+  "kumaoni": "Baith jaa"
+},
+{
+  "en": "Stand up",
+  "kumaoni": "Uth jaa"
+},
+{
+  "en": "Eat food",
+  "kumaoni": "Bhat kha"
+},
+{
+  "en": "Drink water",
+  "kumaoni": "Paani pi"
+},
+{
+  "en": "Open the door",
+  "kumaoni": "Darwaja khol"
+},
+{
+  "en": "Close the window",
+  "kumaoni": "Kiwaad band kar"
+},
+{
+  "en": "Let’s go",
+  "kumaoni": "Chalun ja"
+},
+{
+  "en": "Come fast",
+  "kumaoni": "Jaldi aija"
+},
+{
+  "en": "Wait here",
+  "kumaoni": "Yahaan rokh"
+},
+{
+  "en": "Don’t go",
+  "kumaoni": "Mat jaa"
+},
+{
+  "en": "Call him",
+  "kumaoni": "Usla bula"
+},
+{
+  "en": "Call her",
+  "kumaoni": "Usla bula"
+},
+{
+  "en": "Call me",
+  "kumaoni": "Mela bula"
+},
+{
+  "en": "I am hungry",
+  "kumaoni": "Main bhookhyo chhu"
+},
+{
+  "en": "I am thirsty",
+  "kumaoni": "Main pyaso chhu"
+},
+{
+  "en": "I am tired",
+  "kumaoni": "Main thakyo chhu"
+},
+{
+  "en": "I am happy",
+  "kumaoni": "Main khus chhu"
+},
+{
+  "en": "I am sad",
+  "kumaoni": "Main dukhi chhu"
+},
+{
+  "en": "What happened?",
+  "kumaoni": "Ka bhaigo?"
+},
+{
+  "en": "Nothing happened",
+  "kumaoni": "Kuch na bhaigo"
+},
+{
+  "en": "Come tomorrow",
+  "kumaoni": "Bholi aija"
+},
+{
+  "en": "See you tomorrow",
+  "kumaoni": "Bholi bhetaula"
+},
+{
+  "en": "See you soon",
+  "kumaoni": "Jaldi bhetaula"
+},
+{
+  "en": "Come again",
+  "kumaoni": "Feri aija"
+},
+{
+  "en": "Don’t worry",
+  "kumaoni": "Chinta mat kar"
+},
+{
+  "en": "Be careful",
+  "kumaoni": "Savadhan rah"
+},
+{
+  "en": "Take care",
+  "kumaoni": "Dhyan rakha"
+},
+{
+  "en": "I will come",
+  "kumaoni": "Main aul chhu"
+},
+{
+  "en": "I will go",
+  "kumaoni": "Main jaul chhu"
+},
+{
+  "en": "I will eat",
+  "kumaoni": "Main khul chhu"
+},
+{
+  "en": "I will drink",
+  "kumaoni": "Main piul chhu"
+},
+{
+  "en": "Can you help?",
+  "kumaoni": "Tu madat karula?"
+},
+{
+  "en": "Help me",
+  "kumaoni": "Mela madat kar"
+},
+{
+  "en": "Who are you?",
+  "kumaoni": "Tu ka chha?"
+},
+{
+  "en": "I am a student",
+  "kumaoni": "Main chhatra chhu"
+},
+{
+  "en": "I am a teacher",
+  "kumaoni": "Main master chhu"
+},
+{
+  "en": "Where are you going?",
+  "kumaoni": "Tu kahaan ja chha?"
+},
+{
+  "en": "Where are you coming from?",
+  "kumaoni": "Tu kahaan se aich?"
+},
+{
+  "en": "Very good",
+  "kumaoni": "Bahut ramro"
+},
+{
+  "en": "Not good",
+  "kumaoni": "Ramro na"
+},
+{
+  "en": "Do fast",
+  "kumaoni": "Jaldi kar"
+},
+{
+  "en": "Don’t do",
+  "kumaoni": "Mat kar"
+},
+{
+  "en": "Keep quiet",
+  "kumaoni": "Chup rah"
+},
+{
+  "en": "Speak slowly",
+  "kumaoni": "Dhire bol"
+},
+{
+  "en": "Speak fast",
+  "kumaoni": "Jaldi bol"
+},
+{
+  "en": "Listen to me",
+  "kumaoni": "Mela sun"
+},
+{
+  "en": "Yes",
+  "kumaoni": "Haan"
+},
+{
+  "en": "No",
+  "kumaoni": "Naai"
+},
+{
+  "en": "Okay",
+  "kumaoni": "Theek chha"
+},
+{
+  "en": "Come here",
+  "kumaoni": "Ija aao"
+},
+{
+  "en": "Go there",
+  "kumaoni": "Tya jao"
+},
+{
+  "en": "Sit down",
+  "kumaoni": "Bas jao"
+},
+{
+  "en": "Stand up",
+  "kumaoni": "Uth jao"
+},
+{
+  "en": "Eat food",
+  "kumaoni": "Bhat khao"
+},
+{
+  "en": "Drink water",
+  "kumaoni": "Paani pi lo"
+},
+{
+  "en": "Wait",
+  "kumaoni": "Ruko"
+},
+{
+  "en": "Come fast",
+  "kumaoni": "Jaldi aao"
+},
+{
+  "en": "Walk slowly",
+  "kumaoni": "Dhire dhire chalo"
+},
+{
+  "en": "Look here",
+  "kumaoni": "Ija hera"
+},
+{
+  "en": "Look there",
+  "kumaoni": "Tya hera"
+},
+{
+  "en": "Who are you?",
+  "kumaoni": "Tu kaun chha?"
+},
+{
+  "en": "I am fine",
+  "kumaoni": "Main theek chhu"
+},
+{
+  "en": "I don’t know",
+  "kumaoni": "Maini na jaalu"
+},
+{
+  "en": "What happened?",
+  "kumaoni": "Ka bhayo?"
+},
+{
+  "en": "Nothing",
+  "kumaoni": "Kuch na"
+},
+{
+  "en": "Good morning",
+  "kumaoni": "Ram ram"
+},
+{
+  "en": "Good night",
+  "kumaoni": "Shubh raat"
+},
+{
+  "en": "Where are you?",
+  "kumaoni": "Tu khan chha?"
+},
+{
+  "en": "Come tomorrow",
+  "kumaoni": "Bholi aija"
+},
+{
+  "en": "Come today",
+  "kumaoni": "Aaj aija"
+},
+{
+  "en": "Don’t go",
+  "kumaoni": "Na ja"
+},
+{
+  "en": "Listen",
+  "kumaoni": "Suna"
+},
+{
+  "en": "Tell me",
+  "kumaoni": "Bata"
+},
+{
+  "en": "Very good",
+  "kumaoni": "Bahut ramro"
+},
+{
+  "en": "Bad",
+  "kumaoni": "Kharaab"
+},
+{
+  "en": "I love you",
+  "kumaoni": "Main tu lai maya karu chhu"
+},
+{
+  "en": "How much?",
+  "kumaoni": "Kattha?"
+},
+{
+  "en": "Less",
+  "kumaoni": "Thor"
+},
+{
+  "en": "More",
+  "kumaoni": "Besar"
+},
+{
+  "en": "Enough",
+  "kumaoni": "Bas"
+},
+{
+  "en": "Move",
+  "kumaoni": "Hat ja"
+},
+{
+  "en": "Don’t do",
+  "kumaoni": "Na kar"
+},
+{
+  "en": "Come inside",
+  "kumaoni": "Bhitar aija"
+},
+{
+  "en": "Go outside",
+  "kumaoni": "Bahar ja"
+},
+{
+  "en": "Light",
+  "kumaoni": "Batti"
+},
+{
+  "en": "Dark",
+  "kumaoni": "Andher"
+},
+{
+  "en": "Hot",
+  "kumaoni": "Garami"
+},
+{
+  "en": "Cold",
+  "kumaoni": "Thand"
+},
+{
+  "en": "Day",
+  "kumaoni": "Din"
+},
+{
+  "en": "Night",
+  "kumaoni": "Raat"
+},
+{
+  "en": "Today",
+  "kumaoni": "Aaj"
+},
+{
+  "en": "Tomorrow",
+  "kumaoni": "Bholi"
+},
+{
+  "en": "Yesterday",
+  "kumaoni": "Kaal"
+},
+{
+  "en": "Brother",
+  "kumaoni": "Bhai"
+},
+{
+  "en": "Sister",
+  "kumaoni": "Baini"
+},
+{
+  "en": "I am fine",
+  "kumaoni": "Main theek chhu"
+},
+{
+  "en": "Take care",
+  "kumaoni": "Dhyan rakhu"
+},
+{
+  "en": "Come here",
+  "kumaoni": "Yath aa"
+},
+{
+  "en": "Go there",
+  "kumaoni": "Ut ja"
+},
+{
+  "en": "Very good",
+  "kumaoni": "Bahut ramro"
+},
+{
+  "en": "Wait here",
+  "kumaoni": "Yath rukh"
+},
+{
+  "en": "Sit down",
+  "kumaoni": "Baith ja"
+},
+{
+  "en": "Stand up",
+  "kumaoni": "Khado ho ja"
+},
+{
+  "en": "Give me water",
+  "kumaoni": "Main paani de"
+},
+{
+  "en": "Call him",
+  "kumaoni": "Uni lai bula"
+},
+{
+  "en": "What happened?",
+  "kumaoni": "Ka bhayo?"
+},
+{
+  "en": "Be quiet",
+  "kumaoni": "Chup raho"
+},
+{
+  "en": "Don’t worry",
+  "kumaoni": "Fikar na kar"
+},
+{
+  "en": "Come tomorrow",
+  "kumaoni": "Bhol aa"
+},
+{
+  "en": "Eat food",
+  "kumaoni": "Khana khau"
+},
+{
+  "en": "Drink milk",
+  "kumaoni": "Dudh piu"
+},
+{
+  "en": "Sleep now",
+  "kumaoni": "Ab sow ja"
+},
+{
+  "en": "Open the door",
+  "kumaoni": "Darwajo khol"
+},
+{
+  "en": "Close the window",
+  "kumaoni": "Khirki band kar"
+},
+{
+  "en": "Come fast",
+  "kumaoni": "Jaldi aa"
+},
+{
+  "en": "Run slowly",
+  "kumaoni": "Dhire daud"
+},
+{
+  "en": "Look there",
+  "kumaoni": "Ut dekh"
+},
+{
+  "en": "Listen carefully",
+  "kumaoni": "Dhyan lagai sun"
+},
+{
+  "en": "Tell me",
+  "kumaoni": "Main lai bol"
+},
+{
+  "en": "Wait a little",
+  "kumaoni": "Thodi der rukh"
+},
+{
+  "en": "Do it now",
+  "kumaoni": "Ab kar"
+},
+{
+  "en": "Don’t do this",
+  "kumaoni": "Yo na kar"
+},
+{
+  "en": "Play outside",
+  "kumaoni": "Bahar khelu"
+},
+{
+  "en": "Come inside",
+  "kumaoni": "Ander aa"
+},
+{
+  "en": "Light the lamp",
+  "kumaoni": "Diyo bal"
+},
+{
+  "en": "Turn off the light",
+  "kumaoni": "Batti bujh"
+},
+{
+  "en": "Bring book",
+  "kumaoni": "Kitaab le aa"
+},
+{
+  "en": "Write fast",
+  "kumaoni": "Jaldi likh"
+},
+{
+  "en": "Read this",
+  "kumaoni": "Yo padh"
+},
+{
+  "en": "Don’t cry",
+  "kumaoni": "Na runa"
+},
+{
+  "en": "Laugh more",
+  "kumaoni": "Jyada hasi"
+},
+{
+  "en": "Call mother",
+  "kumaoni": "Aama lai bula"
+},
+{
+  "en": "Call father",
+  "kumaoni": "Baapu lai bula"
+},
+{
+  "en": "Come with me",
+  "kumaoni": "Mero saath aa"
+},
+{
+  "en": "Go with him",
+  "kumaoni": "Uni saath ja"
+},
+{
+  "en": "I am here",
+  "kumaoni": "Main yath chhu"
+},
+{
+  "en": "I am there",
+  "kumaoni": "Main ut chhu"
+},
+{
+  "en": "Nothing",
+  "kumaoni": "Ka na"
+},
+{
+  "en": "Everything",
+  "kumaoni": "Sab ka"
+},
+{
+  "en": "Too much",
+  "kumaoni": "Bahut jyaada"
+},
+{
+  "en": "A little",
+  "kumaoni": "Thoda"
+},
+{
+  "en": "This one",
+  "kumaoni": "Yo wa"
+},
+{
+  "en": "That one",
+  "kumaoni": "Ut wa"
+},
+{
+  "en": "Good night",
+  "kumaoni": "Shubh raat"
+},
+{
+  "en": "Good morning",
+  "kumaoni": "Shubh prabhat"
+}
+
+
+
+]
